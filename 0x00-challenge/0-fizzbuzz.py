@@ -6,7 +6,7 @@ import sys
 
 def fizzbuzz(n):
     """
-    FizzBuzz function prints the numbers from 1 to n separated by a space
+    FizzBuzz function prints numbers from 1 to n separated by a space
 
     - For multiples of both three and five print "FizzBuzz"
     - For multiples of three print "Fizz" instead of the number
@@ -26,6 +26,7 @@ def fizzbuzz(n):
         else:
             tmp_result.append(str(i))
     print(" ".join(tmp_result))
+
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
